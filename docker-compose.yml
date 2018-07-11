@@ -1,0 +1,15 @@
+version: '3'
+services:
+  pe_web:
+    image: nginx
+    environment:
+      VIRTUAL_HOST: packetecho.io
+    expose:
+      - 80
+    volumes:
+      - '.:/www'
+      - './nginx.conf:/etc/nginx/conf.d/default.conf'
+networks:
+  default:
+    external:
+      name: nginx-proxy

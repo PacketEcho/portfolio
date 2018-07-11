@@ -1,0 +1,213 @@
+body {
+  background: #ffffff;
+  color: #898989;
+  font-family: 'Lato', Tahoma, Verdana, Segoe, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Poppins, Verdana, Geneva, sans-serif;
+}
+
+h2 {
+  color: #292929;
+}
+
+a {
+  color: #292929;
+}
+
+a:hover, a:focus {
+  color: #f7765f;
+  text-decoration: underline;
+}
+
+::-moz-selection {
+  background: #b8a07e;
+  color: #ffffff;
+}
+
+::selection {
+  background: #b8a07e;
+  color: #ffffff;
+}
+
+.btn {
+  background: #333333;
+  border: medium none;
+  border-radius: 0;
+  color: #ffffff;
+}
+
+.btn:hover, .btn:focus {
+  background-color: #f7765f;
+  color: #ffffff;
+}
+
+.form-control {
+  background-color: transparent;
+  border: 1px solid #999;
+  border-radius: 0;
+  color: #999999;
+  font-size: 12px;
+  font-weight: 500;
+  height: 50px;
+  letter-spacing: 0.1em;
+  padding-left: 10px;
+  margin: 0 0 25px 0;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  outline: 0 none;
+}
+
+.socials-media ul {
+  display: inline-block;
+  float: none;
+  margin: 0 0 20px 0;
+}
+
+.socials-media ul li {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.socials-media ul li a {
+  font-size: 24px;
+  color: #999999;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  background: transparent;
+}
+
+.socials-media ul li a:hover {
+  color: #f7765f;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*  Header
+/*-----------------------------------------------------------------------------------*/
+.masthead {
+  background: url("../img/bg3.png") repeat scroll center center / cover;
+}
+
+header::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100px;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23f7f7f7%3B' /%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.header {
+  height: 100vh;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header h1 {
+  font-size: 5rem;
+  font-weight: 100;
+  color: #f7f7f7;
+}
+
+.header .socials-media ul li a {
+  color: #ffffff;
+}
+
+.header .socials-media ul li a:hover {
+  color: #f7765f;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Portfolio
+/*-----------------------------------------------------------------------------------*/
+
+.portfolio {
+  background: #f7f7f7;
+}
+
+.portfolio .card {
+  border-radius: 0px;
+}
+
+.modal-content {
+  border-radius: 0px;
+}
+
+.portfolio::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100px;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,0 0,100 100,100' style='fill:%23ffffff%3B' /%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Contact
+/*-----------------------------------------------------------------------------------*/
+
+.contact {
+  background: #ffffff;
+}
+
+.contact-details {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100px;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23f7f7f7%3B' /%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+.response {
+  background: #f7f7f7;
+}
+
+.response::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100px;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,0 0,100 100,100' style='fill:%23ffffff%3B' /%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  Footer
+/*-----------------------------------------------------------------------------------*/
+
+.footer {
+  background: #f7f7f7;
+}
+
+.footer p {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.credits {
+  font-size: 13px;
+}
